@@ -1,0 +1,48 @@
+# Core
+pandas
+numpy
+scikit-learn
+joblib
+
+# Web UI (ResumeIQ React app — run from ui-reference/)
+#   cd ui-reference && pnpm install && pnpm dev
+# API (powers login + dashboard skill match)
+#   uvicorn src.api.main:app --reload --port 8000
+fastapi
+uvicorn[standard]
+python-multipart
+email-validator
+streamlit
+
+# Text extraction (PDF/DOCX + OCR fallback)
+pdfplumber
+python-docx
+pytesseract
+pdf2image
+Pillow
+# NOTE: pytesseract and pdf2image need the underlying Tesseract OCR and
+# Poppler binaries installed on your system, not just the Python package:
+#   macOS:   brew install tesseract poppler
+#   Ubuntu:  sudo apt-get install tesseract-ocr poppler-utils
+#   Windows: install Tesseract from https://github.com/UB-Mannheim/tesseract/wiki
+#            and Poppler from https://github.com/oschwartz10612/poppler-windows
+
+# NLP
+nltk
+spacy
+# Optional but recommended for the PhraseMatcher-based skill extractor:
+#   python -m spacy download en_core_web_sm
+
+# Matching techniques (feedback point 1: benchmark against TF-IDF baseline)
+gensim                 # Doc2Vec / Word2Vec
+sentence-transformers  # contextual embeddings (all-MiniLM-L6-v2)
+
+# Classification + imbalance correction (feedback point 3)
+imbalanced-learn       # SMOTE
+
+# Explainability (feedback point 4)
+shap
+matplotlib
+
+# Visualization
+plotly

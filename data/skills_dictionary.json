@@ -1,0 +1,2813 @@
+{
+  ".NET Framework": [
+    ".net framework",
+    "netframework"
+  ],
+  "3D Graphics": [
+    "3d graphics",
+    "3dgraphics"
+  ],
+  "3D Modeling": [
+    "3d modeling",
+    "3dmodeling"
+  ],
+  "A/B Testing": [
+    "a b testing",
+    "a/b testing",
+    "abtesting"
+  ],
+  "ABAP": [
+    "abap"
+  ],
+  "API Development": [
+    "api development",
+    "apidevelopment"
+  ],
+  "API Documentation": [
+    "api documentation",
+    "apidocumentation"
+  ],
+  "API Integration": [
+    "api integration",
+    "apiintegration"
+  ],
+  "API Testing": [
+    "api testing",
+    "apitesting"
+  ],
+  "AR/VR Platforms": [
+    "ar vr platforms",
+    "ar/vr platforms",
+    "arvrplatforms"
+  ],
+  "ATS Systems": [
+    "ats systems",
+    "atssystems"
+  ],
+  "AWS": [
+    "aws"
+  ],
+  "Academic Planning": [
+    "academic planning",
+    "academicplanning"
+  ],
+  "Academic Writing": [
+    "academic writing",
+    "academicwriting"
+  ],
+  "Account Management": [
+    "account management",
+    "accountmanagement"
+  ],
+  "Accounting": [
+    "accounting"
+  ],
+  "Accounting Principles": [
+    "accounting principles",
+    "accountingprinciples"
+  ],
+  "Accuracy": [
+    "accuracy"
+  ],
+  "Active Directory": [
+    "active directory",
+    "activedirectory"
+  ],
+  "Active Listening": [
+    "active listening",
+    "activelistening"
+  ],
+  "Administration": [
+    "administration"
+  ],
+  "Administrative Skills": [
+    "administrative skills",
+    "administrativeskills"
+  ],
+  "Adobe Creative Suite": [
+    "adobe creative suite",
+    "adobecreativesuite"
+  ],
+  "Adult Learning": [
+    "adult learning",
+    "adultlearning"
+  ],
+  "Aerodynamics": [
+    "aerodynamics"
+  ],
+  "Aggregation": [
+    "aggregation"
+  ],
+  "Agile": [
+    "agile"
+  ],
+  "Agricultural Systems": [
+    "agricultural systems",
+    "agriculturalsystems"
+  ],
+  "Analysis": [
+    "analysis"
+  ],
+  "Analytical Skills": [
+    "analytical skills",
+    "analyticalskills"
+  ],
+  "Analytics": [
+    "analytics"
+  ],
+  "Anatomy": [
+    "anatomy"
+  ],
+  "Anatomy Knowledge": [
+    "anatomy knowledge",
+    "anatomyknowledge"
+  ],
+  "Android Development": [
+    "android development",
+    "androiddevelopment"
+  ],
+  "Android SDK": [
+    "android sdk",
+    "androidsdk"
+  ],
+  "Angular": [
+    "angular"
+  ],
+  "Animal Care": [
+    "animal care",
+    "animalcare"
+  ],
+  "Animal Handling": [
+    "animal handling",
+    "animalhandling"
+  ],
+  "Animal Health": [
+    "animal health",
+    "animalhealth"
+  ],
+  "Animation Software": [
+    "animation software",
+    "animationsoftware"
+  ],
+  "Apache Kafka": [
+    "apache kafka",
+    "apachekafka"
+  ],
+  "Apache Spark": [
+    "apache spark",
+    "apachespark"
+  ],
+  "Apex": [
+    "apex"
+  ],
+  "Architectural Design": [
+    "architectural design",
+    "architecturaldesign"
+  ],
+  "Architecture": [
+    "architecture"
+  ],
+  "Architecture Patterns": [
+    "architecture patterns",
+    "architecturepatterns"
+  ],
+  "Archives Management": [
+    "archives management",
+    "archivesmanagement"
+  ],
+  "Arrangement": [
+    "arrangement"
+  ],
+  "Art Knowledge": [
+    "art knowledge",
+    "artknowledge"
+  ],
+  "Artificial Intelligence": [
+    "artificial intelligence",
+    "artificialintelligence"
+  ],
+  "Artistic Direction": [
+    "artistic direction",
+    "artisticdirection"
+  ],
+  "Artistry": [
+    "artistry"
+  ],
+  "Assessment": [
+    "assessment"
+  ],
+  "Athletic Ability": [
+    "athletic ability",
+    "athleticability"
+  ],
+  "Athletic Knowledge": [
+    "athletic knowledge",
+    "athleticknowledge"
+  ],
+  "Athletic Training": [
+    "athletic training",
+    "athletictraining"
+  ],
+  "Attention to Detail": [
+    "attention to detail",
+    "attentiontodetail"
+  ],
+  "Audio Editing": [
+    "audio editing",
+    "audioediting"
+  ],
+  "Audio Engineering": [
+    "audio engineering",
+    "audioengineering"
+  ],
+  "Audit Procedures": [
+    "audit procedures",
+    "auditprocedures"
+  ],
+  "Auditing": [
+    "auditing"
+  ],
+  "AutoCAD": [
+    "autocad"
+  ],
+  "Automation": [
+    "automation"
+  ],
+  "Automation Platforms": [
+    "automation platforms",
+    "automationplatforms"
+  ],
+  "Awareness": [
+    "awareness"
+  ],
+  "Azure": [
+    "azure"
+  ],
+  "Backlink Strategy": [
+    "backlink strategy",
+    "backlinkstrategy"
+  ],
+  "Backlog Management": [
+    "backlog management",
+    "backlogmanagement"
+  ],
+  "Backup Recovery": [
+    "backup recovery",
+    "backuprecovery"
+  ],
+  "Baking": [
+    "baking"
+  ],
+  "Bartending": [
+    "bartending"
+  ],
+  "Bash": [
+    "bash"
+  ],
+  "Benefits Administration": [
+    "benefits administration",
+    "benefitsadministration"
+  ],
+  "Big Data": [
+    "big data",
+    "bigdata"
+  ],
+  "Biomedical Systems": [
+    "biomedical systems",
+    "biomedicalsystems"
+  ],
+  "Blockchain Technology": [
+    "blockchain technology",
+    "blockchaintechnology"
+  ],
+  "Board Communication": [
+    "board communication",
+    "boardcommunication"
+  ],
+  "Brand Management": [
+    "brand management",
+    "brandmanagement"
+  ],
+  "Brand Strategy": [
+    "brand strategy",
+    "brandstrategy"
+  ],
+  "Brand Vision": [
+    "brand vision",
+    "brandvision"
+  ],
+  "Brand Voice": [
+    "brand voice",
+    "brandvoice"
+  ],
+  "Branding": [
+    "branding"
+  ],
+  "Broadcasting": [
+    "broadcasting"
+  ],
+  "Budget Control": [
+    "budget control",
+    "budgetcontrol"
+  ],
+  "Budget Management": [
+    "budget management",
+    "budgetmanagement"
+  ],
+  "Budget Planning": [
+    "budget planning",
+    "budgetplanning"
+  ],
+  "Budgeting": [
+    "budgeting"
+  ],
+  "Bug Tracking": [
+    "bug tracking",
+    "bugtracking"
+  ],
+  "Building Codes": [
+    "building codes",
+    "buildingcodes"
+  ],
+  "Business Acumen": [
+    "business acumen",
+    "businessacumen"
+  ],
+  "Business Analysis": [
+    "business analysis",
+    "businessanalysis"
+  ],
+  "Business Development": [
+    "business development",
+    "businessdevelopment"
+  ],
+  "Business Development Strategy": [
+    "business development strategy",
+    "businessdevelopmentstrategy"
+  ],
+  "Business Management": [
+    "business management",
+    "businessmanagement"
+  ],
+  "Business Operations": [
+    "business operations",
+    "businessoperations"
+  ],
+  "Business Skills": [
+    "business skills",
+    "businessskills"
+  ],
+  "C#": [
+    "c#"
+  ],
+  "C++": [
+    "c++"
+  ],
+  "C/C++": [
+    "c c++",
+    "c/c++",
+    "cc++"
+  ],
+  "CAD": [
+    "cad"
+  ],
+  "CI/CD": [
+    "ci cd",
+    "ci/cd",
+    "cicd"
+  ],
+  "CMS": [
+    "cms"
+  ],
+  "CNC Machines": [
+    "cnc machines",
+    "cncmachines"
+  ],
+  "CQL": [
+    "cql"
+  ],
+  "CRM": [
+    "crm"
+  ],
+  "CSS": [
+    "css"
+  ],
+  "Caching": [
+    "caching"
+  ],
+  "Calculations": [
+    "calculations"
+  ],
+  "Campaign Management": [
+    "campaign management",
+    "campaignmanagement"
+  ],
+  "Cargo": [
+    "cargo"
+  ],
+  "Carpentry": [
+    "carpentry"
+  ],
+  "Case Management": [
+    "case management",
+    "casemanagement"
+  ],
+  "Cash Handling": [
+    "cash handling",
+    "cashhandling"
+  ],
+  "Cassandra": [
+    "cassandra"
+  ],
+  "Change Control": [
+    "change control",
+    "changecontrol"
+  ],
+  "Change Management": [
+    "change management",
+    "changemanagement"
+  ],
+  "Chemical Processes": [
+    "chemical processes",
+    "chemicalprocesses"
+  ],
+  "Circuit Design": [
+    "circuit design",
+    "circuitdesign"
+  ],
+  "Cisco": [
+    "cisco"
+  ],
+  "Classroom Management": [
+    "classroom management",
+    "classroommanagement"
+  ],
+  "Client Communication": [
+    "client communication",
+    "clientcommunication"
+  ],
+  "Client Relations": [
+    "client relations",
+    "clientrelations"
+  ],
+  "Client Relationships": [
+    "client relationships",
+    "clientrelationships"
+  ],
+  "Client Service": [
+    "client service",
+    "clientservice"
+  ],
+  "Clinical Data": [
+    "clinical data",
+    "clinicaldata"
+  ],
+  "Clinical Knowledge": [
+    "clinical knowledge",
+    "clinicalknowledge"
+  ],
+  "Clinical Skills": [
+    "clinical skills",
+    "clinicalskills"
+  ],
+  "Clojure": [
+    "clojure"
+  ],
+  "Cloud Platforms": [
+    "cloud platforms",
+    "cloudplatforms"
+  ],
+  "Coaching": [
+    "coaching"
+  ],
+  "Code Knowledge": [
+    "code knowledge",
+    "codeknowledge"
+  ],
+  "Code Review": [
+    "code review",
+    "codereview"
+  ],
+  "Collaboration": [
+    "collaboration"
+  ],
+  "Color Grading": [
+    "color grading",
+    "colorgrading"
+  ],
+  "Color Theory": [
+    "color theory",
+    "colortheory"
+  ],
+  "Communication": [
+    "communication"
+  ],
+  "Community Engagement": [
+    "community engagement",
+    "communityengagement"
+  ],
+  "Community Management": [
+    "community management",
+    "communitymanagement"
+  ],
+  "Community Relations": [
+    "community relations",
+    "communityrelations"
+  ],
+  "Compassion": [
+    "compassion"
+  ],
+  "Compensation": [
+    "compensation"
+  ],
+  "Compensation Strategy": [
+    "compensation strategy",
+    "compensationstrategy"
+  ],
+  "Compliance": [
+    "compliance"
+  ],
+  "Composition": [
+    "composition"
+  ],
+  "Computer Skills": [
+    "computer skills",
+    "computerskills"
+  ],
+  "Concurrency": [
+    "concurrency"
+  ],
+  "Configuration": [
+    "configuration"
+  ],
+  "Conservation": [
+    "conservation"
+  ],
+  "Construction Knowledge": [
+    "construction knowledge",
+    "constructionknowledge"
+  ],
+  "Container Security": [
+    "container security",
+    "containersecurity"
+  ],
+  "Content Creation": [
+    "content creation",
+    "contentcreation"
+  ],
+  "Content Editing": [
+    "content editing",
+    "contentediting"
+  ],
+  "Content Optimization": [
+    "content optimization",
+    "contentoptimization"
+  ],
+  "Content Strategy": [
+    "content strategy",
+    "contentstrategy"
+  ],
+  "Contract Negotiation": [
+    "contract negotiation",
+    "contractnegotiation"
+  ],
+  "Contractor Management": [
+    "contractor management",
+    "contractormanagement"
+  ],
+  "Cooking": [
+    "cooking"
+  ],
+  "Coordination": [
+    "coordination"
+  ],
+  "Copywriting": [
+    "copywriting"
+  ],
+  "Coroutines": [
+    "coroutines"
+  ],
+  "Corporate Law": [
+    "corporate law",
+    "corporatelaw"
+  ],
+  "Cost Analysis": [
+    "cost analysis",
+    "costanalysis"
+  ],
+  "Cost Management": [
+    "cost management",
+    "costmanagement"
+  ],
+  "Cost Optimization": [
+    "cost optimization",
+    "costoptimization"
+  ],
+  "Counseling": [
+    "counseling"
+  ],
+  "Course Development": [
+    "course development",
+    "coursedevelopment"
+  ],
+  "Crane Operation": [
+    "crane operation",
+    "craneoperation"
+  ],
+  "Creative Vision": [
+    "creative vision",
+    "creativevision"
+  ],
+  "Creativity": [
+    "creativity"
+  ],
+  "Crisis Intervention": [
+    "crisis intervention",
+    "crisisintervention"
+  ],
+  "Critical Thinking": [
+    "critical thinking",
+    "criticalthinking"
+  ],
+  "Crop Knowledge": [
+    "crop knowledge",
+    "cropknowledge"
+  ],
+  "Cryptocurrency": [
+    "cryptocurrency"
+  ],
+  "Culinary Skills": [
+    "culinary skills",
+    "culinaryskills"
+  ],
+  "Cultural Sensitivity": [
+    "cultural sensitivity",
+    "culturalsensitivity"
+  ],
+  "Culture Building": [
+    "culture building",
+    "culturebuilding"
+  ],
+  "Curation": [
+    "curation"
+  ],
+  "Curriculum Development": [
+    "curriculum development",
+    "curriculumdevelopment"
+  ],
+  "Customer Relations": [
+    "customer relations",
+    "customerrelations"
+  ],
+  "Customer Service": [
+    "customer service",
+    "customerservice"
+  ],
+  "DAX": [
+    "dax"
+  ],
+  "Dairy Operations": [
+    "dairy operations",
+    "dairyoperations"
+  ],
+  "Dashboard Design": [
+    "dashboard design",
+    "dashboarddesign"
+  ],
+  "Dashboard Development": [
+    "dashboard development",
+    "dashboarddevelopment"
+  ],
+  "Data Analysis": [
+    "data analysis",
+    "dataanalysis"
+  ],
+  "Data Integration": [
+    "data integration",
+    "dataintegration"
+  ],
+  "Data Management": [
+    "data management",
+    "datamanagement"
+  ],
+  "Data Modeling": [
+    "data modeling",
+    "datamodeling"
+  ],
+  "Data Quality": [
+    "data quality",
+    "dataquality"
+  ],
+  "Data Structures": [
+    "data structures",
+    "datastructures"
+  ],
+  "Data Visualization": [
+    "data visualization",
+    "datavisualization"
+  ],
+  "Data Warehouse Design": [
+    "data warehouse design",
+    "datawarehousedesign"
+  ],
+  "Data Warehousing": [
+    "data warehousing",
+    "datawarehousing"
+  ],
+  "Database": [
+    "database"
+  ],
+  "Database Administration": [
+    "database administration",
+    "databaseadministration"
+  ],
+  "Database Design": [
+    "database design",
+    "databasedesign"
+  ],
+  "Database Management": [
+    "database management",
+    "databasemanagement"
+  ],
+  "Database Optimization": [
+    "database optimization",
+    "databaseoptimization"
+  ],
+  "Debugging": [
+    "debugging"
+  ],
+  "Decision Making": [
+    "decision making",
+    "decisionmaking"
+  ],
+  "Decoration": [
+    "decoration"
+  ],
+  "Deep Learning": [
+    "deep learning",
+    "deeplearning"
+  ],
+  "Demand Forecasting": [
+    "demand forecasting",
+    "demandforecasting"
+  ],
+  "Dental Procedures": [
+    "dental procedures",
+    "dentalprocedures"
+  ],
+  "Department Management": [
+    "department management",
+    "departmentmanagement"
+  ],
+  "Design": [
+    "design"
+  ],
+  "Design Knowledge": [
+    "design knowledge",
+    "designknowledge"
+  ],
+  "Design Principles": [
+    "design principles",
+    "designprinciples"
+  ],
+  "Design Software": [
+    "design software",
+    "designsoftware"
+  ],
+  "Design Systems": [
+    "design systems",
+    "designsystems"
+  ],
+  "Design Thinking": [
+    "design thinking",
+    "designthinking"
+  ],
+  "Design Tools": [
+    "design tools",
+    "designtools"
+  ],
+  "DevOps": [
+    "devops"
+  ],
+  "Diagnosis": [
+    "diagnosis"
+  ],
+  "Diesel Engines": [
+    "diesel engines",
+    "dieselengines"
+  ],
+  "Digital Transformation": [
+    "digital transformation",
+    "digitaltransformation"
+  ],
+  "Dimensional Modeling": [
+    "dimensional modeling",
+    "dimensionalmodeling"
+  ],
+  "Discipline": [
+    "discipline"
+  ],
+  "Discretion": [
+    "discretion"
+  ],
+  "Distributed Computing": [
+    "distributed computing",
+    "distributedcomputing"
+  ],
+  "Distributed Systems": [
+    "distributed systems",
+    "distributedsystems"
+  ],
+  "Distribution": [
+    "distribution"
+  ],
+  "Django": [
+    "django"
+  ],
+  "Docker": [
+    "docker"
+  ],
+  "Document Preparation": [
+    "document preparation",
+    "documentpreparation"
+  ],
+  "Documentation": [
+    "documentation"
+  ],
+  "Drawing": [
+    "drawing"
+  ],
+  "Driving": [
+    "driving"
+  ],
+  "Drug Interactions": [
+    "drug interactions",
+    "druginteractions"
+  ],
+  "Drupal": [
+    "drupal"
+  ],
+  "E-Learning": [
+    "e learning",
+    "e-learning",
+    "elearning"
+  ],
+  "E-commerce": [
+    "e commerce",
+    "e-commerce",
+    "ecommerce"
+  ],
+  "ERP Systems": [
+    "erp systems",
+    "erpsystems"
+  ],
+  "ETL": [
+    "etl"
+  ],
+  "ETL Tools": [
+    "etl tools",
+    "etltools"
+  ],
+  "Editing": [
+    "editing"
+  ],
+  "Editing Software": [
+    "editing software",
+    "editingsoftware"
+  ],
+  "Educational Leadership": [
+    "educational leadership",
+    "educationalleadership"
+  ],
+  "Efficiency Optimization": [
+    "efficiency optimization",
+    "efficiencyoptimization"
+  ],
+  "Elasticsearch": [
+    "elasticsearch"
+  ],
+  "Electrical Systems": [
+    "electrical systems",
+    "electricalsystems"
+  ],
+  "Electrical Work": [
+    "electrical work",
+    "electricalwork"
+  ],
+  "Elixir": [
+    "elixir"
+  ],
+  "Email Campaign Management": [
+    "email campaign management",
+    "emailcampaignmanagement"
+  ],
+  "Email Marketing": [
+    "email marketing",
+    "emailmarketing"
+  ],
+  "Embedded Linux": [
+    "embedded linux",
+    "embeddedlinux"
+  ],
+  "Embedded Systems": [
+    "embedded systems",
+    "embeddedsystems"
+  ],
+  "Empathy": [
+    "empathy"
+  ],
+  "Employee Relations": [
+    "employee relations",
+    "employeerelations"
+  ],
+  "Encryption": [
+    "encryption"
+  ],
+  "Enterprise Architecture": [
+    "enterprise architecture",
+    "enterprisearchitecture"
+  ],
+  "Enterprise Systems": [
+    "enterprise systems",
+    "enterprisesystems"
+  ],
+  "Enthusiasm": [
+    "enthusiasm"
+  ],
+  "Environmental Assessment": [
+    "environmental assessment",
+    "environmentalassessment"
+  ],
+  "Environmental Knowledge": [
+    "environmental knowledge",
+    "environmentalknowledge"
+  ],
+  "Environmental Science": [
+    "environmental science",
+    "environmentalscience"
+  ],
+  "Equipment": [
+    "equipment"
+  ],
+  "Equipment Design": [
+    "equipment design",
+    "equipmentdesign"
+  ],
+  "Equipment Knowledge": [
+    "equipment knowledge",
+    "equipmentknowledge"
+  ],
+  "Equipment Maintenance": [
+    "equipment maintenance",
+    "equipmentmaintenance"
+  ],
+  "Equipment Operation": [
+    "equipment operation",
+    "equipmentoperation"
+  ],
+  "Erlang": [
+    "erlang"
+  ],
+  "Ethics": [
+    "ethics"
+  ],
+  "Evaluation": [
+    "evaluation"
+  ],
+  "Event Planning": [
+    "event planning",
+    "eventplanning"
+  ],
+  "Event Processing": [
+    "event processing",
+    "eventprocessing"
+  ],
+  "Excel": [
+    "excel"
+  ],
+  "Executive Communication": [
+    "executive communication",
+    "executivecommunication"
+  ],
+  "Executive Management": [
+    "executive management",
+    "executivemanagement"
+  ],
+  "Executive Support": [
+    "executive support",
+    "executivesupport"
+  ],
+  "Exercise Prescription": [
+    "exercise prescription",
+    "exerciseprescription"
+  ],
+  "Exhibition Design": [
+    "exhibition design",
+    "exhibitiondesign"
+  ],
+  "Experimentation": [
+    "experimentation"
+  ],
+  "FP&A": [
+    "fp&a",
+    "fpa"
+  ],
+  "Facial Treatment": [
+    "facial treatment",
+    "facialtreatment"
+  ],
+  "Fairness": [
+    "fairness"
+  ],
+  "Farm Management": [
+    "farm management",
+    "farmmanagement"
+  ],
+  "Farming": [
+    "farming"
+  ],
+  "Field Work": [
+    "field work",
+    "fieldwork"
+  ],
+  "Figma": [
+    "figma"
+  ],
+  "Financial Analysis": [
+    "financial analysis",
+    "financialanalysis"
+  ],
+  "Financial Management": [
+    "financial management",
+    "financialmanagement"
+  ],
+  "Financial Modeling": [
+    "financial modeling",
+    "financialmodeling"
+  ],
+  "Financial Reporting": [
+    "financial reporting",
+    "financialreporting"
+  ],
+  "Financial Strategy": [
+    "financial strategy",
+    "financialstrategy"
+  ],
+  "Fire Fighting": [
+    "fire fighting",
+    "firefighting"
+  ],
+  "Firewalls": [
+    "firewalls"
+  ],
+  "First Aid": [
+    "first aid",
+    "firstaid"
+  ],
+  "Fitness": [
+    "fitness"
+  ],
+  "Fitness Industry Knowledge": [
+    "fitness industry knowledge",
+    "fitnessindustryknowledge"
+  ],
+  "Fitness Knowledge": [
+    "fitness knowledge",
+    "fitnessknowledge"
+  ],
+  "Flask": [
+    "flask"
+  ],
+  "Fleet Management": [
+    "fleet management",
+    "fleetmanagement"
+  ],
+  "Flying": [
+    "flying"
+  ],
+  "Food Safety": [
+    "food safety",
+    "foodsafety"
+  ],
+  "Food Science": [
+    "food science",
+    "foodscience"
+  ],
+  "Forecasting": [
+    "forecasting"
+  ],
+  "Friendliness": [
+    "friendliness"
+  ],
+  "Functional Programming": [
+    "functional programming",
+    "functionalprogramming"
+  ],
+  "Fundraising": [
+    "fundraising"
+  ],
+  "Fundraising Knowledge": [
+    "fundraising knowledge",
+    "fundraisingknowledge"
+  ],
+  "GAAP": [
+    "gaap"
+  ],
+  "GCP": [
+    "gcp"
+  ],
+  "GDPR": [
+    "gdpr"
+  ],
+  "Game Physics": [
+    "game physics",
+    "gamephysics"
+  ],
+  "Geology": [
+    "geology"
+  ],
+  "Git": [
+    "git"
+  ],
+  "Go": [
+    "go"
+  ],
+  "Government Knowledge": [
+    "government knowledge",
+    "governmentknowledge"
+  ],
+  "Grant Writing": [
+    "grant writing",
+    "grantwriting"
+  ],
+  "Graphics Programming": [
+    "graphics programming",
+    "graphicsprogramming"
+  ],
+  "HDFS": [
+    "hdfs"
+  ],
+  "HR Expertise": [
+    "hr expertise",
+    "hrexpertise"
+  ],
+  "HR Systems": [
+    "hr systems",
+    "hrsystems"
+  ],
+  "HTML": [
+    "html"
+  ],
+  "HTML/CSS": [
+    "html css",
+    "html/css",
+    "htmlcss"
+  ],
+  "HVAC Systems": [
+    "hvac systems",
+    "hvacsystems"
+  ],
+  "Hacking Tools": [
+    "hacking tools",
+    "hackingtools"
+  ],
+  "Hadoop": [
+    "hadoop"
+  ],
+  "Hair Styling": [
+    "hair styling",
+    "hairstyling"
+  ],
+  "Hand Tools": [
+    "hand tools",
+    "handtools"
+  ],
+  "Hardware": [
+    "hardware"
+  ],
+  "Hardware Design": [
+    "hardware design",
+    "hardwaredesign"
+  ],
+  "Hardware Installation": [
+    "hardware installation",
+    "hardwareinstallation"
+  ],
+  "Haskell": [
+    "haskell"
+  ],
+  "Health Knowledge": [
+    "health knowledge",
+    "healthknowledge"
+  ],
+  "Healthcare Management": [
+    "healthcare management",
+    "healthcaremanagement"
+  ],
+  "Horticulture": [
+    "horticulture"
+  ],
+  "Hotel Management": [
+    "hotel management",
+    "hotelmanagement"
+  ],
+  "IRS Knowledge": [
+    "irs knowledge",
+    "irsknowledge"
+  ],
+  "IT Knowledge": [
+    "it knowledge",
+    "itknowledge"
+  ],
+  "Imaging Technology": [
+    "imaging technology",
+    "imagingtechnology"
+  ],
+  "Improvisation": [
+    "improvisation"
+  ],
+  "Incident Response": [
+    "incident response",
+    "incidentresponse"
+  ],
+  "Indexing": [
+    "indexing"
+  ],
+  "Informatica": [
+    "informatica"
+  ],
+  "Information Management": [
+    "information management",
+    "informationmanagement"
+  ],
+  "Instruction": [
+    "instruction"
+  ],
+  "Instructional Design": [
+    "instructional design",
+    "instructionaldesign"
+  ],
+  "Internal Controls": [
+    "internal controls",
+    "internalcontrols"
+  ],
+  "Interviewing": [
+    "interviewing"
+  ],
+  "Inventory": [
+    "inventory"
+  ],
+  "Inventory Control": [
+    "inventory control",
+    "inventorycontrol"
+  ],
+  "Inventory Management": [
+    "inventory management",
+    "inventorymanagement"
+  ],
+  "Investigation": [
+    "investigation"
+  ],
+  "Investor Relations": [
+    "investor relations",
+    "investorrelations"
+  ],
+  "IoT Technology": [
+    "iot technology",
+    "iottechnology"
+  ],
+  "JMeter": [
+    "jmeter"
+  ],
+  "JSON": [
+    "json"
+  ],
+  "Java": [
+    "java"
+  ],
+  "Java Interop": [
+    "java interop",
+    "javainterop"
+  ],
+  "JavaScript": [
+    "javascript"
+  ],
+  "Job Posting": [
+    "job posting",
+    "jobposting"
+  ],
+  "Joomla": [
+    "joomla"
+  ],
+  "Judgment": [
+    "judgment"
+  ],
+  "Jupyter Notebooks": [
+    "jupyter notebooks",
+    "jupyternotebooks"
+  ],
+  "Keyword Research": [
+    "keyword research",
+    "keywordresearch"
+  ],
+  "Kibana": [
+    "kibana"
+  ],
+  "Kitchen Management": [
+    "kitchen management",
+    "kitchenmanagement"
+  ],
+  "Kitchen Skills": [
+    "kitchen skills",
+    "kitchenskills"
+  ],
+  "Kotlin": [
+    "kotlin"
+  ],
+  "Kubernetes": [
+    "kubernetes"
+  ],
+  "LINQ": [
+    "linq"
+  ],
+  "Lab Testing": [
+    "lab testing",
+    "labtesting"
+  ],
+  "Laboratory Analysis": [
+    "laboratory analysis",
+    "laboratoryanalysis"
+  ],
+  "Laboratory Management": [
+    "laboratory management",
+    "laboratorymanagement"
+  ],
+  "Laboratory Skills": [
+    "laboratory skills",
+    "laboratoryskills"
+  ],
+  "Laboratory Work": [
+    "laboratory work",
+    "laboratorywork"
+  ],
+  "Lambda Calculus": [
+    "lambda calculus",
+    "lambdacalculus"
+  ],
+  "Laravel": [
+    "laravel"
+  ],
+  "Law Enforcement": [
+    "law enforcement",
+    "lawenforcement"
+  ],
+  "Leadership": [
+    "leadership"
+  ],
+  "Leadership Support": [
+    "leadership support",
+    "leadershipsupport"
+  ],
+  "Lean Manufacturing": [
+    "lean manufacturing",
+    "leanmanufacturing"
+  ],
+  "Legal Expertise": [
+    "legal expertise",
+    "legalexpertise"
+  ],
+  "Legal Knowledge": [
+    "legal knowledge",
+    "legalknowledge"
+  ],
+  "Legal Research": [
+    "legal research",
+    "legalresearch"
+  ],
+  "Lighting": [
+    "lighting"
+  ],
+  "Lightning": [
+    "lightning"
+  ],
+  "Linux": [
+    "linux"
+  ],
+  "Liquid": [
+    "liquid"
+  ],
+  "LispyScript": [
+    "lispyscript"
+  ],
+  "Livestock Care": [
+    "livestock care",
+    "livestockcare"
+  ],
+  "Load Testing": [
+    "load testing",
+    "loadtesting"
+  ],
+  "Log Analysis": [
+    "log analysis",
+    "loganalysis"
+  ],
+  "Logistics Planning": [
+    "logistics planning",
+    "logisticsplanning"
+  ],
+  "LookML": [
+    "lookml"
+  ],
+  "Looker": [
+    "looker"
+  ],
+  "Low-level Programming": [
+    "low level programming",
+    "low-level programming",
+    "lowlevelprogramming"
+  ],
+  "M&A": [
+    "m&a",
+    "ma"
+  ],
+  "MATLAB": [
+    "matlab"
+  ],
+  "Machine Learning": [
+    "machine learning",
+    "machinelearning"
+  ],
+  "Magento": [
+    "magento"
+  ],
+  "Maintenance": [
+    "maintenance"
+  ],
+  "Makeup Application": [
+    "makeup application",
+    "makeupapplication"
+  ],
+  "Management": [
+    "management"
+  ],
+  "Manual Testing": [
+    "manual testing",
+    "manualtesting"
+  ],
+  "MapReduce": [
+    "mapreduce"
+  ],
+  "Maritime Knowledge": [
+    "maritime knowledge",
+    "maritimeknowledge"
+  ],
+  "Maritime Law": [
+    "maritime law",
+    "maritimelaw"
+  ],
+  "Market Analysis": [
+    "market analysis",
+    "marketanalysis"
+  ],
+  "Market Intelligence": [
+    "market intelligence",
+    "marketintelligence"
+  ],
+  "Market Knowledge": [
+    "market knowledge",
+    "marketknowledge"
+  ],
+  "Market Research": [
+    "market research",
+    "marketresearch"
+  ],
+  "Market Strategy": [
+    "market strategy",
+    "marketstrategy"
+  ],
+  "Marketing": [
+    "marketing"
+  ],
+  "Massage Therapy": [
+    "massage therapy",
+    "massagetherapy"
+  ],
+  "Materials": [
+    "materials"
+  ],
+  "Mathematics": [
+    "mathematics"
+  ],
+  "Maven": [
+    "maven"
+  ],
+  "Meal Planning": [
+    "meal planning",
+    "mealplanning"
+  ],
+  "Mechanical Design": [
+    "mechanical design",
+    "mechanicaldesign"
+  ],
+  "Medical Devices": [
+    "medical devices",
+    "medicaldevices"
+  ],
+  "Medical Knowledge": [
+    "medical knowledge",
+    "medicalknowledge"
+  ],
+  "Medical Records": [
+    "medical records",
+    "medicalrecords"
+  ],
+  "Memory": [
+    "memory"
+  ],
+  "Memory Management": [
+    "memory management",
+    "memorymanagement"
+  ],
+  "Memory Safety": [
+    "memory safety",
+    "memorysafety"
+  ],
+  "Mental Toughness": [
+    "mental toughness",
+    "mentaltoughness"
+  ],
+  "Mentoring": [
+    "mentoring"
+  ],
+  "Messaging": [
+    "messaging"
+  ],
+  "Meteorology": [
+    "meteorology"
+  ],
+  "Microbiology": [
+    "microbiology"
+  ],
+  "Microcontrollers": [
+    "microcontrollers"
+  ],
+  "Microservices": [
+    "microservices"
+  ],
+  "Mobile Design": [
+    "mobile design",
+    "mobiledesign"
+  ],
+  "Mobile Development": [
+    "mobile development",
+    "mobiledevelopment"
+  ],
+  "Module Development": [
+    "module development",
+    "moduledevelopment"
+  ],
+  "MongoDB": [
+    "mongodb"
+  ],
+  "Motivation": [
+    "motivation"
+  ],
+  "Multiple Languages": [
+    "multiple languages",
+    "multiplelanguages"
+  ],
+  "MySQL": [
+    "mysql"
+  ],
+  "Nail Care": [
+    "nail care",
+    "nailcare"
+  ],
+  "Navigation": [
+    "navigation"
+  ],
+  "Negotiation": [
+    "negotiation"
+  ],
+  "Networking": [
+    "networking"
+  ],
+  "NoSQL": [
+    "nosql"
+  ],
+  "Node.js": [
+    "node.js",
+    "nodejs"
+  ],
+  "Non-profit Leadership": [
+    "non profit leadership",
+    "non-profit leadership",
+    "nonprofitleadership"
+  ],
+  "Numerical Analysis": [
+    "numerical analysis",
+    "numericalanalysis"
+  ],
+  "Nursing Care": [
+    "nursing care",
+    "nursingcare"
+  ],
+  "Nursing Leadership": [
+    "nursing leadership",
+    "nursingleadership"
+  ],
+  "Nutrition Science": [
+    "nutrition science",
+    "nutritionscience"
+  ],
+  "Object-Oriented Design": [
+    "object oriented design",
+    "object-oriented design",
+    "objectorienteddesign"
+  ],
+  "Objective-C": [
+    "objective c",
+    "objective-c",
+    "objectivec"
+  ],
+  "Occupational Therapy": [
+    "occupational therapy",
+    "occupationaltherapy"
+  ],
+  "Office Management": [
+    "office management",
+    "officemanagement"
+  ],
+  "On-Camera Skills": [
+    "on camera skills",
+    "on-camera skills",
+    "oncameraskills"
+  ],
+  "Operations Management": [
+    "operations management",
+    "operationsmanagement"
+  ],
+  "Oracle Apps": [
+    "oracle apps",
+    "oracleapps"
+  ],
+  "Oracle Database": [
+    "oracle database",
+    "oracledatabase"
+  ],
+  "Organization": [
+    "organization"
+  ],
+  "Organizational Development": [
+    "organizational development",
+    "organizationaldevelopment"
+  ],
+  "Outdoor Skills": [
+    "outdoor skills",
+    "outdoorskills"
+  ],
+  "P&L Management": [
+    "p&l management",
+    "plmanagement"
+  ],
+  "P&L Responsibility": [
+    "p&l responsibility",
+    "plresponsibility"
+  ],
+  "PCB Design": [
+    "pcb design",
+    "pcbdesign"
+  ],
+  "PHP": [
+    "php"
+  ],
+  "PL/SQL": [
+    "pl sql",
+    "pl/sql",
+    "plsql"
+  ],
+  "Patent Law": [
+    "patent law",
+    "patentlaw"
+  ],
+  "Patience": [
+    "patience"
+  ],
+  "Patient Assessment": [
+    "patient assessment",
+    "patientassessment"
+  ],
+  "Patient Care": [
+    "patient care",
+    "patientcare"
+  ],
+  "Patient Communication": [
+    "patient communication",
+    "patientcommunication"
+  ],
+  "Patient Counseling": [
+    "patient counseling",
+    "patientcounseling"
+  ],
+  "Patient Monitoring": [
+    "patient monitoring",
+    "patientmonitoring"
+  ],
+  "Patient Safety": [
+    "patient safety",
+    "patientsafety"
+  ],
+  "Penetration Testing": [
+    "penetration testing",
+    "penetrationtesting"
+  ],
+  "Performance": [
+    "performance"
+  ],
+  "Performance Metrics": [
+    "performance metrics",
+    "performancemetrics"
+  ],
+  "Performance Optimization": [
+    "performance optimization",
+    "performanceoptimization"
+  ],
+  "Performance Testing": [
+    "performance testing",
+    "performancetesting"
+  ],
+  "Performance Tuning": [
+    "performance tuning",
+    "performancetuning"
+  ],
+  "Perl": [
+    "perl"
+  ],
+  "Personality": [
+    "personality"
+  ],
+  "Pharmacy Knowledge": [
+    "pharmacy knowledge",
+    "pharmacyknowledge"
+  ],
+  "Phoenix Framework": [
+    "phoenix framework",
+    "phoenixframework"
+  ],
+  "Phone Skills": [
+    "phone skills",
+    "phoneskills"
+  ],
+  "Photography": [
+    "photography"
+  ],
+  "Photography/Videography": [
+    "photography videography",
+    "photography/videography",
+    "photographyvideography"
+  ],
+  "Physical Fitness": [
+    "physical fitness",
+    "physicalfitness"
+  ],
+  "Physical Stamina": [
+    "physical stamina",
+    "physicalstamina"
+  ],
+  "Physical Therapy": [
+    "physical therapy",
+    "physicaltherapy"
+  ],
+  "Physics": [
+    "physics"
+  ],
+  "Planning": [
+    "planning"
+  ],
+  "Plant Science": [
+    "plant science",
+    "plantscience"
+  ],
+  "Platform Knowledge": [
+    "platform knowledge",
+    "platformknowledge"
+  ],
+  "Plugin Development": [
+    "plugin development",
+    "plugindevelopment"
+  ],
+  "Plumbing Systems": [
+    "plumbing systems",
+    "plumbingsystems"
+  ],
+  "Point of Sale": [
+    "point of sale",
+    "pointofsale"
+  ],
+  "Policy Analysis": [
+    "policy analysis",
+    "policyanalysis"
+  ],
+  "Policy Expertise": [
+    "policy expertise",
+    "policyexpertise"
+  ],
+  "Policy Knowledge": [
+    "policy knowledge",
+    "policyknowledge"
+  ],
+  "Positioning": [
+    "positioning"
+  ],
+  "Power BI": [
+    "power bi",
+    "powerbi"
+  ],
+  "Power Systems": [
+    "power systems",
+    "powersystems"
+  ],
+  "Precision": [
+    "precision"
+  ],
+  "Presentation": [
+    "presentation"
+  ],
+  "Preservation": [
+    "preservation"
+  ],
+  "Privacy Law": [
+    "privacy law",
+    "privacylaw"
+  ],
+  "Problem Solving": [
+    "problem solving",
+    "problemsolving"
+  ],
+  "Process Analysis": [
+    "process analysis",
+    "processanalysis"
+  ],
+  "Process Design": [
+    "process design",
+    "processdesign"
+  ],
+  "Process Improvement": [
+    "process improvement",
+    "processimprovement"
+  ],
+  "Process Management": [
+    "process management",
+    "processmanagement"
+  ],
+  "Procurement": [
+    "procurement"
+  ],
+  "Procurement Strategy": [
+    "procurement strategy",
+    "procurementstrategy"
+  ],
+  "Product Demonstration": [
+    "product demonstration",
+    "productdemonstration"
+  ],
+  "Product Knowledge": [
+    "product knowledge",
+    "productknowledge"
+  ],
+  "Product Strategy": [
+    "product strategy",
+    "productstrategy"
+  ],
+  "Production Management": [
+    "production management",
+    "productionmanagement"
+  ],
+  "Production Planning": [
+    "production planning",
+    "productionplanning"
+  ],
+  "Professionalism": [
+    "professionalism"
+  ],
+  "Program Design": [
+    "program design",
+    "programdesign"
+  ],
+  "Program Management": [
+    "program management",
+    "programmanagement"
+  ],
+  "Project Management": [
+    "project management",
+    "projectmanagement"
+  ],
+  "Pronunciation": [
+    "pronunciation"
+  ],
+  "Property Knowledge": [
+    "property knowledge",
+    "propertyknowledge"
+  ],
+  "Prototyping": [
+    "prototyping"
+  ],
+  "Prototyping Tools": [
+    "prototyping tools",
+    "prototypingtools"
+  ],
+  "Psychiatric Diagnosis": [
+    "psychiatric diagnosis",
+    "psychiatricdiagnosis"
+  ],
+  "Psychological Assessment": [
+    "psychological assessment",
+    "psychologicalassessment"
+  ],
+  "Pub/Sub": [
+    "pub sub",
+    "pub/sub",
+    "pubsub"
+  ],
+  "Public Administration": [
+    "public administration",
+    "publicadministration"
+  ],
+  "Public Safety": [
+    "public safety",
+    "publicsafety"
+  ],
+  "Public Speaking": [
+    "public speaking",
+    "publicspeaking"
+  ],
+  "Publication": [
+    "publication"
+  ],
+  "PyTorch": [
+    "pytorch"
+  ],
+  "Python": [
+    "python"
+  ],
+  "Qlik Sense": [
+    "qlik sense",
+    "qliksense"
+  ],
+  "Qlik View": [
+    "qlik view",
+    "qlikview"
+  ],
+  "Quality Control": [
+    "quality control",
+    "qualitycontrol"
+  ],
+  "Quality Management": [
+    "quality management",
+    "qualitymanagement"
+  ],
+  "Query DSL": [
+    "query dsl",
+    "querydsl"
+  ],
+  "Quick Thinking": [
+    "quick thinking",
+    "quickthinking"
+  ],
+  "QuickBooks": [
+    "quickbooks"
+  ],
+  "R": [
+    "r"
+  ],
+  "REST API": [
+    "rest api",
+    "restapi"
+  ],
+  "Radiation Safety": [
+    "radiation safety",
+    "radiationsafety"
+  ],
+  "React": [
+    "react"
+  ],
+  "Real Estate Knowledge": [
+    "real estate knowledge",
+    "realestateknowledge"
+  ],
+  "Real-time Systems": [
+    "real time systems",
+    "real-time systems",
+    "realtimesystems"
+  ],
+  "Recipe Development": [
+    "recipe development",
+    "recipedevelopment"
+  ],
+  "Recruitment": [
+    "recruitment"
+  ],
+  "Redis": [
+    "redis"
+  ],
+  "Redux": [
+    "redux"
+  ],
+  "Regional Knowledge": [
+    "regional knowledge",
+    "regionalknowledge"
+  ],
+  "Regular Expressions": [
+    "regular expressions",
+    "regularexpressions"
+  ],
+  "Regulations": [
+    "regulations"
+  ],
+  "Regulatory Compliance": [
+    "regulatory compliance",
+    "regulatorycompliance"
+  ],
+  "Regulatory Knowledge": [
+    "regulatory knowledge",
+    "regulatoryknowledge"
+  ],
+  "Relationship Building": [
+    "relationship building",
+    "relationshipbuilding"
+  ],
+  "Release Management": [
+    "release management",
+    "releasemanagement"
+  ],
+  "Rendering": [
+    "rendering"
+  ],
+  "Report Writing": [
+    "report writing",
+    "reportwriting"
+  ],
+  "Reporting": [
+    "reporting"
+  ],
+  "Requirements Gathering": [
+    "requirements gathering",
+    "requirementsgathering"
+  ],
+  "Research": [
+    "research"
+  ],
+  "Research Methodology": [
+    "research methodology",
+    "researchmethodology"
+  ],
+  "Responsibility": [
+    "responsibility"
+  ],
+  "Responsive Design": [
+    "responsive design",
+    "responsivedesign"
+  ],
+  "Restaurant Management": [
+    "restaurant management",
+    "restaurantmanagement"
+  ],
+  "Restoration": [
+    "restoration"
+  ],
+  "Risk Analysis": [
+    "risk analysis",
+    "riskanalysis"
+  ],
+  "Risk Assessment": [
+    "risk assessment",
+    "riskassessment"
+  ],
+  "Risk Management": [
+    "risk management",
+    "riskmanagement"
+  ],
+  "Route Knowledge": [
+    "route knowledge",
+    "routeknowledge"
+  ],
+  "Route Planning": [
+    "route planning",
+    "routeplanning"
+  ],
+  "Routing": [
+    "routing"
+  ],
+  "Ruby": [
+    "ruby"
+  ],
+  "Ruby on Rails": [
+    "ruby on rails",
+    "rubyonrails"
+  ],
+  "Rust": [
+    "rust"
+  ],
+  "RxJS": [
+    "rxjs"
+  ],
+  "SAP": [
+    "sap"
+  ],
+  "SAS": [
+    "sas"
+  ],
+  "SEM": [
+    "sem"
+  ],
+  "SEO": [
+    "seo"
+  ],
+  "SEO Knowledge": [
+    "seo knowledge",
+    "seoknowledge"
+  ],
+  "SIEM": [
+    "siem"
+  ],
+  "SQL": [
+    "sql"
+  ],
+  "Safety": [
+    "safety"
+  ],
+  "Safety Management": [
+    "safety management",
+    "safetymanagement"
+  ],
+  "Sales": [
+    "sales"
+  ],
+  "Sales Engineering": [
+    "sales engineering",
+    "salesengineering"
+  ],
+  "Sales Leadership": [
+    "sales leadership",
+    "salesleadership"
+  ],
+  "Sales Management": [
+    "sales management",
+    "salesmanagement"
+  ],
+  "Sales Strategy": [
+    "sales strategy",
+    "salesstrategy"
+  ],
+  "Salesforce": [
+    "salesforce"
+  ],
+  "Sanitation": [
+    "sanitation"
+  ],
+  "Scala": [
+    "scala"
+  ],
+  "Scalability": [
+    "scalability"
+  ],
+  "Scientific Knowledge": [
+    "scientific knowledge",
+    "scientificknowledge"
+  ],
+  "Scripting": [
+    "scripting"
+  ],
+  "Scrum": [
+    "scrum"
+  ],
+  "Search Technology": [
+    "search technology",
+    "searchtechnology"
+  ],
+  "Security": [
+    "security"
+  ],
+  "Security Architecture": [
+    "security architecture",
+    "securityarchitecture"
+  ],
+  "Security Protocols": [
+    "security protocols",
+    "securityprotocols"
+  ],
+  "Security Systems": [
+    "security systems",
+    "securitysystems"
+  ],
+  "Security Testing": [
+    "security testing",
+    "securitytesting"
+  ],
+  "Security Tools": [
+    "security tools",
+    "securitytools"
+  ],
+  "Segmentation": [
+    "segmentation"
+  ],
+  "Selenium": [
+    "selenium"
+  ],
+  "Selling": [
+    "selling"
+  ],
+  "Sensors": [
+    "sensors"
+  ],
+  "Server Administration": [
+    "server administration",
+    "serveradministration"
+  ],
+  "Shell Scripting": [
+    "shell scripting",
+    "shellscripting"
+  ],
+  "Shopify": [
+    "shopify"
+  ],
+  "Signal Processing": [
+    "signal processing",
+    "signalprocessing"
+  ],
+  "Simulink": [
+    "simulink"
+  ],
+  "Six Sigma": [
+    "six sigma",
+    "sixsigma"
+  ],
+  "Skincare": [
+    "skincare"
+  ],
+  "Smart Contracts": [
+    "smart contracts",
+    "smartcontracts"
+  ],
+  "Social Media": [
+    "social media",
+    "socialmedia"
+  ],
+  "Social Media Strategy": [
+    "social media strategy",
+    "socialmediastrategy"
+  ],
+  "Software": [
+    "software"
+  ],
+  "Software Design": [
+    "software design",
+    "softwaredesign"
+  ],
+  "Software Skills": [
+    "software skills",
+    "softwareskills"
+  ],
+  "Solidity": [
+    "solidity"
+  ],
+  "Solution Design": [
+    "solution design",
+    "solutiondesign"
+  ],
+  "Sound Design": [
+    "sound design",
+    "sounddesign"
+  ],
+  "Source Development": [
+    "source development",
+    "sourcedevelopment"
+  ],
+  "Spark": [
+    "spark"
+  ],
+  "Speed": [
+    "speed"
+  ],
+  "Sports Knowledge": [
+    "sports knowledge",
+    "sportsknowledge"
+  ],
+  "Sports Management": [
+    "sports management",
+    "sportsmanagement"
+  ],
+  "Spring Boot": [
+    "spring boot",
+    "springboot"
+  ],
+  "Staff Leadership": [
+    "staff leadership",
+    "staffleadership"
+  ],
+  "Staff Management": [
+    "staff management",
+    "staffmanagement"
+  ],
+  "Staff Training": [
+    "staff training",
+    "stafftraining"
+  ],
+  "Stakeholder Communication": [
+    "stakeholder communication",
+    "stakeholdercommunication"
+  ],
+  "Statistical Analysis": [
+    "statistical analysis",
+    "statisticalanalysis"
+  ],
+  "Statistics": [
+    "statistics"
+  ],
+  "Store Management": [
+    "store management",
+    "storemanagement"
+  ],
+  "Storytelling": [
+    "storytelling"
+  ],
+  "Strategic Design": [
+    "strategic design",
+    "strategicdesign"
+  ],
+  "Strategic HR": [
+    "strategic hr",
+    "strategichr"
+  ],
+  "Strategic Leadership": [
+    "strategic leadership",
+    "strategicleadership"
+  ],
+  "Strategic Marketing": [
+    "strategic marketing",
+    "strategicmarketing"
+  ],
+  "Strategic Planning": [
+    "strategic planning",
+    "strategicplanning"
+  ],
+  "Strategic Sourcing": [
+    "strategic sourcing",
+    "strategicsourcing"
+  ],
+  "Strategic Thinking": [
+    "strategic thinking",
+    "strategicthinking"
+  ],
+  "Strategy": [
+    "strategy"
+  ],
+  "Streaming": [
+    "streaming"
+  ],
+  "Structural Analysis": [
+    "structural analysis",
+    "structuralanalysis"
+  ],
+  "Student Assessment": [
+    "student assessment",
+    "studentassessment"
+  ],
+  "Student Support": [
+    "student support",
+    "studentsupport"
+  ],
+  "Subject Matter Expertise": [
+    "subject matter expertise",
+    "subjectmatterexpertise"
+  ],
+  "Supervision": [
+    "supervision"
+  ],
+  "Supplier Management": [
+    "supplier management",
+    "suppliermanagement"
+  ],
+  "Supply Chain Strategy": [
+    "supply chain strategy",
+    "supplychainstrategy"
+  ],
+  "Supply Planning": [
+    "supply planning",
+    "supplyplanning"
+  ],
+  "Support": [
+    "support"
+  ],
+  "Surgical Expertise": [
+    "surgical expertise",
+    "surgicalexpertise"
+  ],
+  "Surveillance": [
+    "surveillance"
+  ],
+  "Sustainability": [
+    "sustainability"
+  ],
+  "Sustainability Strategy": [
+    "sustainability strategy",
+    "sustainabilitystrategy"
+  ],
+  "Swift": [
+    "swift"
+  ],
+  "Symfony": [
+    "symfony"
+  ],
+  "System Administration": [
+    "system administration",
+    "systemadministration"
+  ],
+  "System Architecture": [
+    "system architecture",
+    "systemarchitecture"
+  ],
+  "System Design": [
+    "system design",
+    "systemdesign"
+  ],
+  "System Programming": [
+    "system programming",
+    "systemprogramming"
+  ],
+  "TCP/IP": [
+    "tcp ip",
+    "tcp/ip",
+    "tcpip"
+  ],
+  "Tableau": [
+    "tableau"
+  ],
+  "Talend": [
+    "talend"
+  ],
+  "Target Setting": [
+    "target setting",
+    "targetsetting"
+  ],
+  "Tax Knowledge": [
+    "tax knowledge",
+    "taxknowledge"
+  ],
+  "Tax Law": [
+    "tax law",
+    "taxlaw"
+  ],
+  "Tax Planning": [
+    "tax planning",
+    "taxplanning"
+  ],
+  "Teaching": [
+    "teaching"
+  ],
+  "Team Leadership": [
+    "team leadership",
+    "teamleadership"
+  ],
+  "Team Management": [
+    "team management",
+    "teammanagement"
+  ],
+  "Team Work": [
+    "team work",
+    "teamwork"
+  ],
+  "Teamwork": [
+    "teamwork"
+  ],
+  "Technical Design": [
+    "technical design",
+    "technicaldesign"
+  ],
+  "Technical Documentation": [
+    "technical documentation",
+    "technicaldocumentation"
+  ],
+  "Technical Expertise": [
+    "technical expertise",
+    "technicalexpertise"
+  ],
+  "Technical Knowledge": [
+    "technical knowledge",
+    "technicalknowledge"
+  ],
+  "Technical Problem Solving": [
+    "technical problem solving",
+    "technicalproblemsolving"
+  ],
+  "Technical SEO": [
+    "technical seo",
+    "technicalseo"
+  ],
+  "Technical Skills": [
+    "technical skills",
+    "technicalskills"
+  ],
+  "Technical Support": [
+    "technical support",
+    "technicalsupport"
+  ],
+  "Technical Writing": [
+    "technical writing",
+    "technicalwriting"
+  ],
+  "Technology": [
+    "technology"
+  ],
+  "TensorFlow": [
+    "tensorflow"
+  ],
+  "Test Automation": [
+    "test automation",
+    "testautomation"
+  ],
+  "Testing": [
+    "testing"
+  ],
+  "Text Processing": [
+    "text processing",
+    "textprocessing"
+  ],
+  "Texturing": [
+    "texturing"
+  ],
+  "Theme Development": [
+    "theme development",
+    "themedevelopment"
+  ],
+  "Thermal Systems": [
+    "thermal systems",
+    "thermalsystems"
+  ],
+  "Thermochemistry": [
+    "thermochemistry"
+  ],
+  "Thermodynamics": [
+    "thermodynamics"
+  ],
+  "Threat Analysis": [
+    "threat analysis",
+    "threatanalysis"
+  ],
+  "Threat Detection": [
+    "threat detection",
+    "threatdetection"
+  ],
+  "Time Management": [
+    "time management",
+    "timemanagement"
+  ],
+  "Timeline Management": [
+    "timeline management",
+    "timelinemanagement"
+  ],
+  "Timing": [
+    "timing"
+  ],
+  "Training": [
+    "training"
+  ],
+  "Training Design": [
+    "training design",
+    "trainingdesign"
+  ],
+  "Training Discipline": [
+    "training discipline",
+    "trainingdiscipline"
+  ],
+  "Training Program Design": [
+    "training program design",
+    "trainingprogramdesign"
+  ],
+  "Training Program Development": [
+    "training program development",
+    "trainingprogramdevelopment"
+  ],
+  "Travel Knowledge": [
+    "travel knowledge",
+    "travelknowledge"
+  ],
+  "Treatment": [
+    "treatment"
+  ],
+  "Treatment Planning": [
+    "treatment planning",
+    "treatmentplanning"
+  ],
+  "Troubleshooting": [
+    "troubleshooting"
+  ],
+  "Type Safety": [
+    "type safety",
+    "typesafety"
+  ],
+  "Type System": [
+    "type system",
+    "typesystem"
+  ],
+  "TypeScript": [
+    "typescript"
+  ],
+  "Typing": [
+    "typing"
+  ],
+  "UI Principles": [
+    "ui principles",
+    "uiprinciples"
+  ],
+  "UI/UX": [
+    "ui ux",
+    "ui/ux",
+    "uiux"
+  ],
+  "UI/UX Design": [
+    "ui ux design",
+    "ui/ux design",
+    "uiuxdesign"
+  ],
+  "Unity": [
+    "unity"
+  ],
+  "Unreal Engine": [
+    "unreal engine",
+    "unrealengine"
+  ],
+  "Usability Testing": [
+    "usability testing",
+    "usabilitytesting"
+  ],
+  "User Experience": [
+    "user experience",
+    "userexperience"
+  ],
+  "User Management": [
+    "user management",
+    "usermanagement"
+  ],
+  "User Research": [
+    "user research",
+    "userresearch"
+  ],
+  "Valuation": [
+    "valuation"
+  ],
+  "Vehicle Maintenance": [
+    "vehicle maintenance",
+    "vehiclemaintenance"
+  ],
+  "Vehicle Mechanics": [
+    "vehicle mechanics",
+    "vehiclemechanics"
+  ],
+  "Vehicle Systems": [
+    "vehicle systems",
+    "vehiclesystems"
+  ],
+  "Vendor Management": [
+    "vendor management",
+    "vendormanagement"
+  ],
+  "Veterinary Care": [
+    "veterinary care",
+    "veterinarycare"
+  ],
+  "Veterinary Medicine": [
+    "veterinary medicine",
+    "veterinarymedicine"
+  ],
+  "Video Editing Software": [
+    "video editing software",
+    "videoeditingsoftware"
+  ],
+  "Video Production": [
+    "video production",
+    "videoproduction"
+  ],
+  "Video Shooting": [
+    "video shooting",
+    "videoshooting"
+  ],
+  "Vision": [
+    "vision"
+  ],
+  "Vision Setting": [
+    "vision setting",
+    "visionsetting"
+  ],
+  "Visual Communication": [
+    "visual communication",
+    "visualcommunication"
+  ],
+  "Visual Design": [
+    "visual design",
+    "visualdesign"
+  ],
+  "VisualForce": [
+    "visualforce"
+  ],
+  "Visualization": [
+    "visualization"
+  ],
+  "Voice Skills": [
+    "voice skills",
+    "voiceskills"
+  ],
+  "Vue.js": [
+    "vue.js",
+    "vuejs"
+  ],
+  "Vuex": [
+    "vuex"
+  ],
+  "Vulnerability Assessment": [
+    "vulnerability assessment",
+    "vulnerabilityassessment"
+  ],
+  "Vulnerability Research": [
+    "vulnerability research",
+    "vulnerabilityresearch"
+  ],
+  "Vulnerability Testing": [
+    "vulnerability testing",
+    "vulnerabilitytesting"
+  ],
+  "Warehouse Management": [
+    "warehouse management",
+    "warehousemanagement"
+  ],
+  "Waste Management": [
+    "waste management",
+    "wastemanagement"
+  ],
+  "Water Systems": [
+    "water systems",
+    "watersystems"
+  ],
+  "Water Treatment": [
+    "water treatment",
+    "watertreatment"
+  ],
+  "Weather Analysis": [
+    "weather analysis",
+    "weatheranalysis"
+  ],
+  "Web Design": [
+    "web design",
+    "webdesign"
+  ],
+  "Website Management": [
+    "website management",
+    "websitemanagement"
+  ],
+  "Welding": [
+    "welding"
+  ],
+  "Wildlife Biology": [
+    "wildlife biology",
+    "wildlifebiology"
+  ],
+  "Windows Server": [
+    "windows server",
+    "windowsserver"
+  ],
+  "Wireframing": [
+    "wireframing"
+  ],
+  "WordPress": [
+    "wordpress"
+  ],
+  "Writing": [
+    "writing"
+  ],
+  "XML": [
+    "xml"
+  ],
+  "Xcode": [
+    "xcode"
+  ],
+  "dbt": [
+    "dbt"
+  ],
+  "eLearning": [
+    "elearning"
+  ],
+  "ggplot2": [
+    "ggplot2"
+  ],
+  "iOS Development": [
+    "ios development",
+    "iosdevelopment"
+  ],
+  "iOS SDK": [
+    "ios sdk",
+    "iossdk"
+  ],
+  "tidyverse": [
+    "tidyverse"
+  ]
+}

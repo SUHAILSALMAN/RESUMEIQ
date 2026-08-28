@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+models/*.joblib
+models/*.model
+models/*.model.*
+data/users.json
+data/analyses.json
+ui-reference/node_modules/
+ui-reference/dist/
+frontend/node_modules/
+frontend/dist/
+
