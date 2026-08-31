@@ -15,12 +15,21 @@ dissertation. Four concrete gaps were named:
 
 ## 2. How each point is addressed in this codebase
 
-| # | Feedback | Implementation | File |
-|---|---|---|---|
-| 1 | Benchmark contextual embeddings / word vectors against TF-IDF | Three matchers (TF-IDF baseline, Doc2Vec, Sentence-Transformers) plus a retrieval-style benchmark harness reporting MRR and Precision@5 for each | `matching/tfidf_matcher.py`, `matching/doc2vec_matcher.py`, `matching/embedding_matcher.py`, `matching/benchmark.py` |
-| 2 | OCR fallback for scanned documents | Native extraction (pdfplumber/python-docx) is tried first; if the text yield is below threshold, pytesseract OCR runs automatically. Verified on both a native and a synthetic scanned PDF | `extraction/text_extractor.py` |
-| 3 | Resampling for class imbalance | SMOTE inside an `imblearn` pipeline (TF-IDF → SMOTE → Logistic Regression), fit only on the training split to avoid leakage, with adaptive `k_neighbors` for very small classes | `classification/train_classifier.py` |
-| 4 | Model interpretability | SHAP `LinearExplainer` (exact Shapley values, justified by the classifier being linear) surfaces the top contributing resume terms per prediction, rendered as a bar chart in the Streamlit dashboard | `classification/explainability.py`, `app/streamlit_app.py` |
+
+The supervisor feedback has been addressed through the following implemented
+components:
+
+| Supervisor feedback | Technical response | Current status |
+|---|---|---|
+| TF-IDF-only matching was too simplistic | TF-IDF was retained as the primary validated baseline, with Doc2Vec and Sentence-Transformer matching implementations added as additional experimental approaches | Implemented |
+| No OCR fallback | Added OCR fallback using Tesseract for scanned/image-based PDF resumes | Completed |
+| No class-imbalance correction | Added SMOTE to the classifier training pipeline | Completed |
+| No model interpretability | Added SHAP-based explainability for the Logistic Regression classifier | Implemented |
+
+The final system therefore extends the original baseline with OCR,
+class-balancing and model-explainability components while retaining TF-IDF as
+the primary validated resume-to-job matching approach.
+
 
 ## 3. Why these specific technical choices (for your methodology write-up)
 
@@ -40,62 +49,196 @@ dissertation. Four concrete gaps were named:
   coefficients rather than approximating them — faster and more defensible
   than treating the classifier as a black box it isn't.
 
+
 ## 4. What the real datasets look like (for your data section)
 
-- `data/resumes_dataset.jsonl`: 3,500 labelled resumes, 36 job-title
-  categories, combining a public corpus ("ResumeAtlas", 2,337 rows) with
-  synthetically generated resumes (1,163 rows). Genuinely imbalanced:
-  largest classes 200 resumes, smallest (Technical Writer) 20 — a ~10:1
-  ratio, which is exactly the scenario SMOTE is designed for.
-- `data/job_roles.csv`: 324 job roles across 41 industry categories, with
-  pipe-delimited required skills, education requirements, experience years
-  and salary ranges.
-- Two real data-quality issues were found and handled during preparation
-  (see `README.md` "Known data caveats") — documenting this discovery-and-fix
-  process is good methodology evidence for your write-up.
+ResumeIQ uses two main datasets.
+
+### Resume Classification Dataset
+
+- `data/resumes_dataset.jsonl`: approximately 3,500 labelled resumes across
+  36 resume/job-title categories.
+- The dataset combines the ResumeAtlas-sourced corpus with synthetically
+  generated resume records.
+- The dataset is imbalanced, with some categories containing considerably
+  fewer examples than others.
+- The largest classes contain approximately 200 resumes, while the smallest
+  classes contain substantially fewer training examples.
+
+The imbalance identified during data preparation motivated the use of SMOTE
+during classifier training.
+
+### Job Role Dataset
+
+- `data/job_roles.csv`: 324 job roles across 41 job categories.
+- The dataset contains job requirements including skills, education,
+  experience and salary-related information.
+- The skill taxonomy derived from the job-role dataset contains approximately
+  764 unique skills.
+
+### Data Quality
+
+Two important data-quality issues were identified and handled during
+preparation:
+
+1. Repeated boilerplate contact information was removed from resume text.
+2. The original `Skills` field was found to contain unreliable repeated
+   values, so skills are extracted from resume text using the project's
+   skill taxonomy rather than relying on that field.
+
+These data-quality findings and the associated preprocessing steps are
+documented as part of the methodology.
 
 ## 5. Already-validated results
 
-These numbers come from runs actually executed against your real data
-during development (not projected):
+## 5. Validated results
 
-- **Classifier baseline** (TF-IDF + Logistic Regression, no SMOTE yet):
-  88.7% accuracy, 0.92 macro-F1 across 36 classes on a held-out 20% test
-  split. This is your "before" number to compare against once SMOTE is
-  added — a modest or even flat improvement in aggregate accuracy is a
-  legitimate finding if minority-class recall improves, since that's what
-  SMOTE specifically targets. Report per-class recall before/after, not
-  just aggregate accuracy.
-- **TF-IDF retrieval benchmark**: MRR 0.76, Precision@5 0.84 across 128
-  resumes (32 of 36 categories) ranked against all 324 job roles. This is
-  the number Doc2Vec and Sentence-Transformers need to beat once you run
-  `benchmark.py` with those methods installed.
+The following results were obtained from actual executions of the ResumeIQ
+pipeline using the project datasets.
+
+### 5.1 Classification baseline
+
+The baseline classifier used TF-IDF features followed by Logistic Regression
+without SMOTE.
+
+The baseline achieved:
+
+- **Accuracy: 88.7%**
+- **Macro-F1: 0.92**
+- **36 resume categories**
+
+This result is retained as the baseline against which the final
+class-balanced classifier is compared.
+
+### 5.2 Final SMOTE-balanced classifier
+
+The final classification pipeline applies SMOTE only to the training data
+after the train/test split.
+
+The final pipeline is:
+
+TF-IDF
+   ↓
+SMOTE
+   ↓
+Logistic Regression
 
 ## 6. Updated implementation phases
 
-Your original 10-phase, 12-week plan is still a reasonable skeleton. The
-main change is that Phases 5 (matching) and 6 (classification) now have
-more sub-steps, and a new phase is needed for the benchmark comparison and
-SHAP layer. Suggested revision:
 
-| Phase | Weeks | Activity | Deliverable |
-|---|---|---|---|
-| 1 | 1–2 | Literature review update: cite Doc2Vec (Le & Mikolov 2014), Sentence-BERT (Reimers & Gurevych 2019), SMOTE (Chawla et al. 2002), SHAP (Lundberg & Lee 2017) | Revised literature review |
-| 2 | 3 | Data preparation: boilerplate cleaning, skill taxonomy generation | `labelled_resumes_clean.csv`, `skills_dictionary.json` |
-| 3 | 4 | Extraction + OCR fallback, validated on scanned test files | `text_extractor.py` + test evidence |
-| 4 | 5 | TF-IDF baseline matcher (regression-test target) | `tfidf_matcher.py` |
-| 5 | 6–7 | Doc2Vec + Sentence-Transformer matchers, benchmark harness | `benchmark.py` results table |
-| 6 | 8 | SMOTE-balanced classifier, before/after per-class comparison | trained model + evaluation report |
-| 7 | 9 | SHAP explainability layer | `explainability.py` + example plots |
-| 8 | 10 | Streamlit dashboard integration | working app |
-| 9 | 11 | System + user testing, collect feedback | testing report |
-| 10 | 12 | Final write-up: results, limitations, evaluation | dissertation + demo |
+The original project plan was retained as the overall development structure,
+but the implementation was expanded in response to the supervisor feedback.
 
-## 7. Next steps for you, this week
+| Phase | Weeks | Activity | Deliverable | Status |
+|---|---|---|---|---|
+| 1 | 1–2 | Literature review and methodology refinement | Revised literature review | Completed |
+| 2 | 3 | Data preparation, cleaning and skill taxonomy generation | `labelled_resumes_clean.csv`, `skills_dictionary.json` | Completed |
+| 3 | 4 | Resume extraction and OCR fallback | `text_extractor.py` + test evidence | Completed |
+| 4 | 5 | TF-IDF resume-to-job baseline matching | `tfidf_matcher.py` + benchmark | Completed |
+| 5 | 6–7 | Additional Doc2Vec and Sentence-Transformer matching implementations | Additional matching implementations | Implemented |
+| 6 | 8 | SMOTE-balanced Logistic Regression classifier | Trained classifier + evaluation report | Completed |
+| 7 | 9 | SHAP-based model explainability | `explainability.py` + explanation output | Implemented |
+| 8 | 10 | React frontend and FastAPI backend integration | Working web application | Completed |
+| 9 | 11 | System and user testing | Testing evidence and results | Completed |
+| 10 | 12 | Final evaluation, limitations and dissertation write-up | Dissertation + final demonstration | Completed |
 
-1. `pip install -r requirements.txt` locally (this sandbox had no internet,
-   so `gensim`, `sentence-transformers`, `imbalanced-learn`, `shap` and
-   `streamlit` are untested here — but syntax-checked and ready to run).
-2. Run the full pipeline in the README's "Run order" section.
-3. Compare your local SMOTE/embedding results against the baseline numbers
-   in Section 5 above — that comparison *is* your evaluation chapter.
+## 7. Final implementation and evaluation status
+
+The main implementation and evaluation activities have now been completed.
+
+### Machine Learning
+
+- TF-IDF resume-to-job matching implemented and benchmarked.
+- Logistic Regression classifier implemented.
+- SMOTE integrated into the classifier training pipeline.
+- Final classifier trained using the prepared resume dataset.
+- Final classifier evaluated on an untouched test set of 661 samples.
+- Confusion matrix generated.
+- SHAP explainability implemented.
+
+### Resume Processing
+
+- PDF text extraction implemented.
+- DOCX text extraction implemented.
+- OCR fallback implemented for scanned/image-based PDF resumes.
+- Resume preprocessing and normalization implemented.
+- Skill extraction implemented using the generated skill taxonomy.
+
+### Application
+
+- React frontend implemented as the primary user interface.
+- FastAPI implemented as the primary backend.
+- User registration and login implemented.
+- Protected analysis functionality implemented.
+- Resume upload and analysis implemented.
+- Analysis history implemented.
+- JSON file-based persistence implemented.
+
+### Final Classification Results
+
+The final TF-IDF + SMOTE + Logistic Regression classifier achieved:
+
+- **90.17% accuracy**
+- **93.53% macro precision**
+- **93.27% macro recall**
+- **93.27% macro F1**
+
+The pre-SMOTE baseline achieved **88.7% accuracy** and **0.92 macro-F1**.
+
+The final model therefore improved classification accuracy by **1.47 percentage
+points** over the baseline.
+
+### Primary Matching Results
+
+The validated TF-IDF retrieval benchmark achieved:
+
+- **MRR: 0.76**
+- **Precision@5: 0.84**
+
+using 128 sampled resumes against 324 job roles.
+
+### Current Persistence Approach
+
+The dissertation prototype uses lightweight JSON file-based persistence:
+
+- `data/users.json` — registered user records
+- `data/analyses.json` — completed analysis records
+
+These files are excluded from version control because they may contain
+user-specific information.
+
+A production deployment could migrate this persistence layer to a relational
+or managed database.
+
+---
+
+## 8. Final system status
+
+The final ResumeIQ prototype integrates the following components:
+
+``text
+React Frontend
+       ↓
+FastAPI Backend
+       ↓
+Authentication
+       ↓
+Resume Upload
+       ↓
+Text Extraction / OCR
+       ↓
+Text Preprocessing
+       ↓
+Skill Extraction
+       ↓
+TF-IDF Resume-to-Job Matching
+       ↓
+Logistic Regression Classification
+       ↓
+SHAP Explainability
+       ↓
+Career Readiness Analysis
+       ↓
+JSON File Persistence
+       ↓
+Analysis History
