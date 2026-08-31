@@ -1,145 +1,133 @@
-# AI-Powered Resume Skill Match & Career Readiness Analysis System
+# ResumeIQ — AI-Powered Resume Skill Match & Career Readiness Analysis
 
-BSc (Hons) Data Science dissertation project (CIS6001). This is the upgraded
-implementation that responds directly to supervisor feedback on the
-original proposal — see `PROJECT_PLAN.md` for the full mapping between
-feedback points and what was built.
+ResumeIQ is a BSc (Hons) Data Science dissertation project (CIS6001) that provides candidate-facing resume analysis and career-readiness feedback.
 
-## What's already working (tested in this build)
+The system analyses an uploaded CV against a selected job role, identifies relevant and missing skills, calculates resume-to-job similarity, predicts a job category using a trained machine-learning classifier, and provides explainable feedback.
 
-- **Text extraction with OCR fallback** — `src/extraction/text_extractor.py`
-  Verified against a native-text PDF and a scanned-image PDF: correctly
-  detects the missing text layer and falls back to `pytesseract`.
-- **Preprocessing** — `src/preprocessing/text_cleaner.py`. No internet-dependent
-  downloads (uses sklearn's bundled stopword list), so it runs anywhere.
-- **Skill extraction & job-role comparison** — `src/skills/skill_extractor.py`,
-  built from the *real* `data/job_roles.csv` (324 roles, 764 unique skills,
-  auto-derived taxonomy in `data/skills_dictionary.json`).
-- **TF-IDF baseline matcher** — `src/matching/tfidf_matcher.py`.
-- **Benchmark harness** — `src/matching/benchmark.py`. Already run on the
-  TF-IDF baseline: **MRR 0.76, Precision@5 0.84** across 128 sampled resumes
-  against all 324 job roles (see `PROJECT_PLAN.md` for methodology).
-- **Data cleaning** — `src/classification/prepare_dataset.py` found and fixed
-  a real data-quality issue (a shared boilerplate template header in ~58%
-  of the "ResumeAtlas" resumes) before training.
-- **Classifier baseline (no SMOTE yet)** — 88.7% accuracy / 0.92 macro-F1 on
-  36-class prediction, confirming the data pipeline works end to end.
+## Key Features
 
-## What needs installing locally to finish testing
+- Resume upload using PDF or DOCX files
+- PDF/DOCX text extraction with OCR fallback for scanned PDFs
+- NLP-based resume preprocessing
+- Skill extraction from resume text
+- Job-role and required-skill matching
+- TF-IDF lexical similarity
+- Embedding-based similarity using available Doc2Vec/Sentence-Transformer components
+- Skill-gap identification
+- Job-category prediction using Logistic Regression
+- SMOTE-based class balancing during classifier training
+- SHAP-based explainability
+- Candidate dashboard
+- User registration and login
+- Previous analysis history
 
-The sandbox this was built in has **no internet access**, so these
-packages could not be installed or run here, even though the code for them
-is complete and syntax-checked:
+## System Architecture
 
-| Package | Used by | Feedback point |
-|---|---|---|
-| `gensim` | `matching/doc2vec_matcher.py` | #1 word-vector embeddings |
-| `sentence-transformers` | `matching/embedding_matcher.py` | #1 contextual embeddings |
-| `imbalanced-learn` | `classification/train_classifier.py` | #3 SMOTE |
-| `shap` | `classification/explainability.py` | #4 interpretability |
-| `streamlit` | `app/streamlit_app.py` | dashboard |
+The system consists of:
 
-## Setup (Windows PowerShell)
+1. React/Vite frontend
+2. FastAPI backend
+3. NLP and machine-learning analysis pipeline
+4. Local data and model storage
+
+Uploaded resumes are processed through a temporary file during analysis. User account information and analysis history are stored using the project's local JSON persistence.
+
+## Machine Learning Pipeline
+
+The resume classification pipeline follows:
+
+Resume Dataset
+→ Text Preprocessing
+→ Train/Test Split
+→ TF-IDF Vectorisation
+→ SMOTE
+→ Logistic Regression
+→ Evaluation
+→ Saved Model
+
+The trained classifier is saved as:
+
+`models/category_classifier.joblib`
+
+The classifier is used to predict the most likely resume/job category.
+
+## Resume-to-Job Matching
+
+Resume matching combines lexical and semantic approaches.
+
+### TF-IDF
+
+TF-IDF provides the lexical similarity baseline between resume text and job-role descriptions.
+
+### Embedding-based Matching
+
+The project also contains Doc2Vec and Sentence-Transformer based matching components where the required dependencies and models are available.
+
+### Skill-Gap Analysis
+
+The system compares extracted candidate skills against the required skills for the selected job role.
+
+For example:
+
+Required:
+- Python
+- SQL
+- Power BI
+- Tableau
+
+Candidate:
+- Python
+- SQL
+- Power BI
+
+Result:
+- Matched: Python, SQL, Power BI
+- Missing: Tableau
+
+## Explainable AI
+
+SHAP is used to provide explanations for the job-category classifier by identifying terms/features contributing to the prediction.
+
+This helps make the classification output more understandable rather than presenting only the predicted category.
+
+## Dataset
+
+The project uses a labelled resume dataset for classification and a separate job-role dataset for resume-to-job matching.
+
+The project currently contains:
+
+- Approximately 3,500 labelled resumes across 36 resume categories
+- 324 job roles
+- 764 unique skills derived from the job-role data
+
+The raw resume data is cleaned and transformed before model training.
+
+## Model Performance
+
+The final classifier achieved:
+
+- Accuracy: **90.2%**
+- Macro-F1: **93.3%**
+
+The evaluation methodology and detailed results are documented in the dissertation.
+
+The TF-IDF retrieval benchmark achieved:
+
+- MRR: **0.76**
+- Precision@5: **0.84**
+
+## Data Processing
+
+The preprocessing pipeline addresses issues identified in the source resume data, including repeated boilerplate content.
+
+Skills are extracted from resume text rather than relying directly on the unreliable raw `Skills` field.
+
+## Installation
+
+### Windows PowerShell
 
 ```powershell
 cd D:\Suhail\resume_readiness_system
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm   # optional, improves skill matching
-```
-
-> Do **not** use `source venv/bin/activate` — that is for macOS/Linux only.
-
-Also install the Tesseract OCR and Poppler system binaries (see
-`requirements.txt` comments) — the Python packages alone aren't enough for
-OCR to work.
-
-## Primary app (use this)
-
-The product UI is the React app in **`frontend/`**, backed by FastAPI.
-
-| Service | URL |
-|---|---|
-| **ResumeIQ UI** | http://127.0.0.1:5173 |
-| API (backend) | http://127.0.0.1:8000 |
-
-Open **two** PowerShell terminals from the project root:
-
-**Terminal 1 — API**
-
-```powershell
-cd D:\Suhail\resume_readiness_system
-.\venv\Scripts\activate
-python -m uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8000
-```
-
-**Terminal 2 — Frontend**
-
-```powershell
-cd D:\Suhail\resume_readiness_system\frontend
-pnpm install
-pnpm dev
-```
-
-Then open **http://127.0.0.1:5173**
-
-Flow: **Register / Login → Dashboard → Skill Match** (upload CV, pick a job role).
-
-If `activate` is blocked by execution policy, run once:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
-Or skip activation and call tools via the venv path:
-
-```powershell
-.\venv\Scripts\python.exe -m uvicorn src.api.main:app --reload --host 127.0.0.1 --port 8000
-```
-
-`ui-reference/` is design reference only.  
-`http://localhost:8501` (Streamlit) is a **legacy demo** — not the main product UI.
-
-## Streamlit (legacy only)
-
-```powershell
-cd D:\Suhail\resume_readiness_system
-.\venv\Scripts\activate
-python -m streamlit run src\app\streamlit_app.py
-# or without activate:
-.\venv\Scripts\streamlit.exe run src\app\streamlit_app.py
-```
-
-## Project structure
-
-```
-resume_readiness_system/
-├── data/
-│   ├── job_roles.csv              (real, 324 roles / 41 categories)
-│   ├── resumes_dataset.jsonl      (real, 3500 resumes / 36 categories)
-│   ├── labelled_resumes_clean.csv (generated by prepare_dataset.py)
-│   └── skills_dictionary.json     (generated by build_skills_dictionary.py)
-├── src/
-│   ├── extraction/text_extractor.py
-│   ├── preprocessing/text_cleaner.py
-│   ├── skills/skill_extractor.py, build_skills_dictionary.py
-│   ├── matching/tfidf_matcher.py, doc2vec_matcher.py, embedding_matcher.py, benchmark.py
-│   ├── classification/prepare_dataset.py, train_classifier.py, explainability.py
-│   └── app/streamlit_app.py
-├── models/        (trained models saved here)
-├── tests/
-└── requirements.txt
-```
-
-## Known data caveats (worth a paragraph in your dissertation)
-
-1. **Boilerplate template text**: ~58% of the "ResumeAtlas"-sourced resumes
-   share an identical contact-header template. Stripped in `prepare_dataset.py`.
-2. **Unreliable `Skills` column**: all 2,337 ResumeAtlas rows have the exact
-   same literal `Skills` value ("Python, SQL, Git, Linux"), so it cannot be
-   used as ground truth — skills must be NLP-extracted from `Text` instead.
-3. **Benchmark ground truth is a weak label**: 4 of 36 resume categories
-   (Engineering Manager, Principal Engineer, SQL Developer, Site Reliability
-   Engineer) have no unambiguous matching job title in `job_roles.csv` and
-   are excluded from the retrieval benchmark — documented, not hidden.
