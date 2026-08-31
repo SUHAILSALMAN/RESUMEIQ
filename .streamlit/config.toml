@@ -1,6 +1,0 @@
-[server]
-# Avoid Streamlit file-watcher corrupting ntpath on secondary Windows drives (D:).
-fileWatcherType = "none"
-
-[browser]
-gatherUsageStats = false
